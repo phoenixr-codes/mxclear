@@ -65,15 +65,14 @@ fn main() {
     }
 
     term.show_cursor().unwrap();
-    
+
     // really clean the entire terminal afterwards
     if cfg!(target_os = "windows") {
-        process::Command::new("cmd")
-            .args(["/C", "cls"])
-            .spawn()
+        process::Command::new("cmd").args(["/C", "cls"]).spawn()
     } else {
-        process::Command::new("bash")
-            .args(["-c", "clear"])
-            .spawn()
-    }.unwrap().wait().unwrap();
+        process::Command::new("bash").args(["-c", "clear"]).spawn()
+    }
+    .unwrap()
+    .wait()
+    .unwrap();
 }

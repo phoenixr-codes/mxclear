@@ -1,11 +1,17 @@
 [package]
 name = "mxclear"
 version = "0.1.0"
+description = "`$ clear` with fashion"
+authors = ["Jonas da Silva"]
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+readme = "README.md"
+license = "MIT OR Unlicense"
+keywords = ["clear", "command-line", "fun", "pretty", "terminal"]
+categories = ["command-line-utilities"]
+repository = "https://github.com/phoenixr-codes/mxclear/"
 
 [dependencies]
 clap = {version = "4.2.2", features = ["env"]}
 console = "0.15.5"
 rand = "0.8.5"
+
