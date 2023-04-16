@@ -12,7 +12,7 @@ fn cli() -> clap::Command {
         .about("`$ clear` with fashion")
         .arg(
             Arg::new("style")
-                .help("Sets the style froma dotted notation")
+                .help("Sets the style from a dotted notation")
                 // TODO: add long help
                 .long("style")
                 .env("MXCLEAR_STYLE")
