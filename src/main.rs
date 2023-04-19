@@ -70,7 +70,7 @@ fn main() {
     if cfg!(target_os = "windows") {
         process::Command::new("cmd").args(["/C", "cls"]).spawn()
     } else {
-        process::Command::new("bash").args(["-c", "clear"]).spawn()
+        process::Command::new("sh").args(["-c", "clear"]).spawn()
     }
     .unwrap()
     .wait()
