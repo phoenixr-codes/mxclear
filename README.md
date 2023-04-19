@@ -64,10 +64,10 @@ export MXCLEAR_SPEED=80        # intervall of 80 milliseconds
 This project is licensed under either of
 
 * MIT License
-  ([LICENSE-MIT](https://github.com/phoenixr-codes/mxclear/blob/main/LICENSE-MIT)
+  ([LICENSE-MIT](https://github.com/phoenixr-codes/mxclear/blob/master/LICENSE-MIT)
   or https://opensource.org/license/mit/)
 * The Unlicense
-  ([LICENSE-Unlicense](https://github.com/phoenixr-codes/mxclear/blob/main/LICENSE-Unlicense)
+  ([LICENSE-Unlicense](https://github.com/phoenixr-codes/mxclear/blob/master/LICENSE-Unlicense)
   or https://opensource.org/license/unlicense/)
 
 at your option.
